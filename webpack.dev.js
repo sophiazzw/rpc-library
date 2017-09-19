@@ -104,6 +104,6 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(), // 热替换插件
     new webpack.NamedModulesPlugin(), // 执行热替换时打印模块名字
     new webpack.optimize.OccurrenceOrderPlugin(),
-    new ExtractTextPlugin("style.css")
+    new ExtractTextPlugin("style.css"),
   ]
 }
