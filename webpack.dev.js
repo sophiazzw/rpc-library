@@ -19,7 +19,6 @@ module.exports = {
     publicPath: '/'
   },
   devtool: 'none',
-  // loaders
   module: {
     rules: [
       {test: /(\.jsx|\.js)$/, use: ['babel-loader'], exclude: /node_modules/},
@@ -90,7 +89,7 @@ module.exports = {
     ]
   },
   devServer: {
-    hot: true, // 激活服务器的HMR
+    hot: true,
     contentBase: path.resolve(root, 'dist'),
     publicPath: '/',
     port: 8080,

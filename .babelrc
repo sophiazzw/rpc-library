@@ -5,6 +5,6 @@
   ],
   "plugins": [
     "react-hot-loader/babel", // 添加HMR支持
-    ["import", { "libraryName": "antd", "style": true }]
+    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
   ]
 }
